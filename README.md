@@ -12,7 +12,7 @@ Consider the following annotations on a two-channeled audio file:
 Note that in this particular audio file, there are 5 labelling tiers - the first 4 are interval tiers, and the fifth is a point tier. 
 
 #### `gridParser.parseFile(filename)`
-Extracts the annotations of "filename" (a .TextGrid file) into a python dictionary of the following form:
+Extracts the annotations of "filename" (a `.TextGrid` file) into a python dictionary of the following form:
 ```python
 {
    File type: "ooTextGrid" (string),
@@ -23,6 +23,21 @@ Extracts the annotations of "filename" (a .TextGrid file) into a python dictiona
    item: a list, wherein each element is a single tier of annotations (list)
 }
 ``` 
+
+Here is how you can use it for the TextGrid file included in the repo:
+
+```python
+   >>> import gridParser
+   >>> parsed = gridParser.parseFile('97_1-disf-56s.TextGrid')
+   >>>
+   >>>
+   >>> parsed['item'][0]['intervals']
+   [{'xmin': '0', 'text': '"silence"', 'xmax': '1.4174919078381478'}]
+   >>> parsed['item'][1]['intervals']
+   [{'xmin': '0', 'text': '"sil"', 'xmax': '1.4174919078381478'}]
+```
+
+
    
    
 
