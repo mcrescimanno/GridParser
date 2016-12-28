@@ -10,6 +10,10 @@ Note that on this particular audio file, there are 5 labelling tiers - the first
 
 ### Documentation
 
+1. gridParser.parseFile(filename)
+
+Returns adsfadsfadsfasdfasdf
+
 
 
 
