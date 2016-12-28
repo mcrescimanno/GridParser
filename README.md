@@ -42,7 +42,7 @@ Note: The 0th element of `parsed['item']` corresponds to the first tier, the 1st
 
 ### Gotchas
 
-When using `parseGrid()`, make sure that the TextGrid you are parsing is tab delimited. You will most likely get an error if it is space delimited. 
+When using `parseFile()`, make sure that the TextGrid you are parsing is tab delimited. You will most likely get an error if it is space delimited. 
 
 
 
