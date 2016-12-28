@@ -35,7 +35,17 @@ Here is how you can use it for the TextGrid file included in the repo:
    [{'xmin': '0', 'text': '"silence"', 'xmax': '1.4174919078381478'}]
 >>> parsed['item'][1]['intervals']
    [{'xmin': '0', 'text': '"sil"', 'xmax': '1.4174919078381478'}]
+>>> parsed['item'][4]['points']
+   [{'number': '0.6845761947773994', 'mark': '"disf-g"'}]
 ```
+Note: The 0th element of `parsed['item']` corresponds to the first tier, the 1st to the second tier, and so on. Also note that you access point tier data with the dict key `'points'` as opposed to `'intervals'`.
+
+### Gotchas
+
+When using `parseGrid()`, make sure that the TextGrid you are parsing is tab delimited. You will most likely get an error if it is space delimited. 
+
+
+
 
 
    
