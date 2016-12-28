@@ -24,7 +24,7 @@ Extracts the annotations of "filename" (a `.TextGrid` file) into a python dictio
 }
 ``` 
 
-Here is how you can use it for the TextGrid file included in the repo:
+Here is how the parser can be used on the TextGrid file corresponding to the figure above:
 
 ```python
 >>> import gridParser
