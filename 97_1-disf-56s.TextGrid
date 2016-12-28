@@ -1,0 +1,117 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0 
+xmax = 1.4174919078381478 
+tiers? <exists> 
+size = 5 
+item []: 
+	item [1]:
+		class = "IntervalTier" 
+		name = "Rwrd" 
+		xmin = 0 
+		xmax = 1.4174919078381478 
+		intervals: size = 1 
+		intervals [1]:
+			xmin = 0 
+			xmax = 1.4174919078381478 
+			text = "silence" 
+	item [2]:
+		class = "IntervalTier" 
+		name = "Rphn" 
+		xmin = 0 
+		xmax = 1.4174919078381478 
+		intervals: size = 1 
+		intervals [1]:
+			xmin = 0 
+			xmax = 1.4174919078381478 
+			text = "sil" 
+	item [3]:
+		class = "IntervalTier" 
+		name = "Gwrd" 
+		xmin = 0 
+		xmax = 1.4174919078381478 
+		intervals: size = 4 
+		intervals [1]:
+			xmin = 0 
+			xmax = 0.5182815711837137 
+			text = "triangle" 
+		intervals [2]:
+			xmin = 0.5182815711837137 
+			xmax = 0.8082815711837128 
+			text = "un- (unfilled)" 
+		intervals [3]:
+			xmin = 0.8082815711837128 
+			xmax = 0.9282815711837102 
+			text = "silence" 
+		intervals [4]:
+			xmin = 0.9282815711837102 
+			xmax = 1.4174919078381478 
+			text = "filled" 
+	item [4]:
+		class = "IntervalTier" 
+		name = "Gphn" 
+		xmin = 0 
+		xmax = 1.4174919078381478 
+		intervals: size = 13 
+		intervals [1]:
+			xmin = 0 
+			xmax = 0.10828157118370996 
+			text = "ch" 
+		intervals [2]:
+			xmin = 0.10828157118370996 
+			xmax = 0.1482815711837162 
+			text = "r" 
+		intervals [3]:
+			xmin = 0.1482815711837162 
+			xmax = 0.25828157118371564 
+			text = "ay" 
+		intervals [4]:
+			xmin = 0.25828157118371564 
+			xmax = 0.3282815711837159 
+			text = "ng" 
+		intervals [5]:
+			xmin = 0.3282815711837159 
+			xmax = 0.35828157118370996 
+			text = "g" 
+		intervals [6]:
+			xmin = 0.35828157118370996 
+			xmax = 0.5182815711837137 
+			text = "axl" 
+		intervals [7]:
+			xmin = 0.5182815711837137 
+			xmax = 0.60828157118371 
+			text = "ah" 
+		intervals [8]:
+			xmin = 0.60828157118371 
+			xmax = 0.8082815711837128 
+			text = "n" 
+		intervals [9]:
+			xmin = 0.8082815711837128 
+			xmax = 0.9282815711837102 
+			text = "sil" 
+		intervals [10]:
+			xmin = 0.9282815711837102 
+			xmax = 1.0182815711837137 
+			text = "f" 
+		intervals [11]:
+			xmin = 1.0182815711837137 
+			xmax = 1.138281571183711 
+			text = "ih" 
+		intervals [12]:
+			xmin = 1.138281571183711 
+			xmax = 1.2882815711837097 
+			text = "l" 
+		intervals [13]:
+			xmin = 1.2882815711837097 
+			xmax = 1.4174919078381478 
+			text = "d" 
+	item [5]:
+		class = "TextTier" 
+		name = "" 
+		xmin = 0 
+		xmax = 1.4174919078381478 
+		points: size = 1 
+		points [1]:
+			number = 0.6845761947773994 
+			mark = "disf-g" 
