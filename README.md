@@ -27,13 +27,13 @@ Extracts the annotations of "filename" (a `.TextGrid` file) into a python dictio
 Here is how you can use it for the TextGrid file included in the repo:
 
 ```python
-   >>> import gridParser
-   >>> parsed = gridParser.parseFile('97_1-disf-56s.TextGrid')
-   >>>
-   >>>
-   >>> parsed['item'][0]['intervals']
+>>> import gridParser
+>>> parsed = gridParser.parseFile('97_1-disf-56s.TextGrid')
+>>>
+>>>
+>>> parsed['item'][0]['intervals']
    [{'xmin': '0', 'text': '"silence"', 'xmax': '1.4174919078381478'}]
-   >>> parsed['item'][1]['intervals']
+>>> parsed['item'][1]['intervals']
    [{'xmin': '0', 'text': '"sil"', 'xmax': '1.4174919078381478'}]
 ```
 
