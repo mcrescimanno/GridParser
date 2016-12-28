@@ -5,7 +5,7 @@ Praat (a phonetic analysis tool) is often used to label snippets of audio, allow
 
 The Grid Parser solves this problem by converting a Praat TextGrid (the text file that contains all the user's annotations) to a Python Dictionary. For example, consider the following annotations on a two-channeled audio file:
 
-![Praat Annotation](./Labelling Annotations.png)
+![Praat Annotation](./Labelled Audio.png)
 
 
 
