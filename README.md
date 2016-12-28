@@ -15,12 +15,12 @@ Note that in this particular audio file, there are 5 labelling tiers - the first
 Extracts the annotations of "filename" (a .TextGrid file) into a python dictionary of the following form:
 ```python
 {
-File type: "ooTextGrid" (string),
-Object class: "TextGrid" (string),
-xmin: time at beginning of audio (string),
-xmax: time at end of audio (string),
-size: the integer number of tiers in the file (string),
-item: a list, wherein each element is a single tier of annotations (list)
+   File type: "ooTextGrid" (string),
+   Object class: "TextGrid" (string),
+   xmin: time at beginning of audio (string),
+   xmax: time at end of audio (string),
+   size: the integer number of tiers in the file (string),
+   item: a list, wherein each element is a single tier of annotations (list)
 }
 ``` 
    
