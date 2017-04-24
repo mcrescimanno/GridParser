@@ -8,7 +8,7 @@ The Grid Parser solves this problem by converting a Praat TextGrid (the text fil
 ### Documentation
 Consider the following annotations on a two-channeled audio file:
 
-![Praat Annotation](./Labelled Audio.png)
+![Praat Annotation](./Labelled\ Audio.png)
 Note that in this particular audio file, there are 5 labelling tiers - the first 4 are interval tiers, and the fifth is a point tier. 
 
 #### `gridParser.parseFile(filename)`
